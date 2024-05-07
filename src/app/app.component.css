@@ -3,4 +3,9 @@
     color: azure;
     padding: 8px;
     text-align: left;
-  }
+}
+
+.custom-btn {
+    background-color: #6c757d; 
+    border-color: #6c757d;
+}
