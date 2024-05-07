@@ -1,27 +1,26 @@
 ![image](https://github.com/rominarg/card_Angular17/assets/45200064/6acc45a1-c8f7-41cb-9b6d-a6fb3d58ec6b)
 
-Lo que estás viendo es una explicación detallada de tres directivas estructurales fundamentales en Angular: ngIf, ngFor y ngSwitch. Estas directivas te permiten controlar la estructura del DOM de manera dinámica en función de las condiciones y datos de tu componente.
+Lo que estamos viendo es una explicación detallada de tres directivas estructurales fundamentales en Angular: **ngIf, ngFor y ngSwitch**. Estas directivas te permiten controlar la estructura del DOM de manera dinámica en función de las condiciones y datos de tu componente.
 
 Aquí hay un resumen de cada una de estas directivas:
 
-Directiva ngIf: Esta directiva se utiliza para mostrar u ocultar un elemento del DOM en función de una expresión. Si la expresión es verdadera, el elemento se muestra; de lo contrario, se oculta.Por ejemplo:
+**Directiva ngIf**: Esta directiva se utiliza para mostrar u ocultar un elemento del DOM en función de una expresión. Si la expresión es verdadera, el elemento se muestra; de lo contrario, se oculta.Por ejemplo:
 html
 Copy code
-<div *ngIf="condicion">Contenido visible si la condición es verdadera</div>
-Directiva ngFor: ngFor se utiliza para iterar sobre una colección de elementos y renderizar un fragmento del DOM para cada elemento de la colección. Es especialmente útil cuando necesitas generar repetidamente elementos basados en una lista de datos.Por ejemplo:
+<div *ngIf="condicion">Contenido visible si la condición es verdadera</div>  
+
+**Directiva ngFor**: ngFor se utiliza para iterar sobre una colección de elementos y renderizar un fragmento del DOM para cada elemento de la colección. Es especialmente útil cuando necesitas generar repetidamente elementos basados en una lista de datos.Por ejemplo:
 html
-Copy code
-<div *ngFor="let item of items">Elemento: {{ item }}</div>
-Directiva ngSwitch: ngSwitch se utiliza para mostrar u ocultar elementos en función del valor de una expresión. Se utiliza junto con las directivas ngSwitchCase y ngSwitchDefault para definir diferentes casos y el caso predeterminado.Por ejemplo:
+<div *ngFor="let item of items">Elemento: {{ item }}</div>  
+
+**Directiva ngSwitch**: ngSwitch se utiliza para mostrar u ocultar elementos en función del valor de una expresión. Se utiliza junto con las directivas ngSwitchCase y ngSwitchDefault para definir diferentes casos y el caso predeterminado.Por ejemplo:
 html
-Copy code
 <div [ngSwitch]="valor">
   <div *ngSwitchCase="1">Contenido para caso 1</div>
   <div *ngSwitchCase="2">Contenido para caso 2</div>
   <div *ngSwitchDefault>Contenido predeterminado</div>
 </div>
 En el ejemplo proporcionado, se muestra cómo utilizar estas directivas en un componente Angular para renderizar dinámicamente una galería de tarjetas (cards) basada en una lista de imágenes (imagenList). Las directivas ngIf y ngFor se utilizan para controlar la visibilidad y la generación de las tarjetas, respectivamente.
-
 
 ![image](https://github.com/rominarg/card_Angular17/assets/45200064/01f96b64-000c-4e53-bb7e-043052b29906)
 
