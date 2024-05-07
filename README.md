@@ -1,5 +1,9 @@
 ![image](https://github.com/rominarg/card_Angular17/assets/45200064/6acc45a1-c8f7-41cb-9b6d-a6fb3d58ec6b)
 
+
+![image](https://github.com/rominarg/card_Angular17/assets/45200064/01f96b64-000c-4e53-bb7e-043052b29906)
+
+
 # Card
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.6.
